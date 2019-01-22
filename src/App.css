@@ -30,3 +30,45 @@
     transform: rotate(360deg);
   }
 }
+
+form{
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+input, button{
+  padding: 5px 5px;
+  font-size: 1rem;
+  margin: 5px 0px;
+}
+
+button{
+  background-color: steelblue;
+  color: white;
+}
+
+div.errormsg{
+  font-size: 1rem;
+  color: red;
+  padding: 10px 0px;
+}
+
+
+div.weather{
+  padding: 10px;
+  border: 1px solid #ccc;
+
+}
+
+.weather{
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px 0px;
+    width: 300px;
+    margin: 0px auto;
+}
