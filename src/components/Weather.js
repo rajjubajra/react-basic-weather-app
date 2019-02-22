@@ -14,7 +14,6 @@ const Sunrise = (props) =>{
 
 const Weather = (props) => {
   return(
-    
     <div className='weather'>
       <p>{props.city  && props.country ? props.city +','+ props.country : ''}</p>   
       <p>{props.temparature ? 'Temparature: ' + props.temparature + ' deg C' : ''}</p>
